@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: rgb(238,174,202);
+    background: linear-gradient(145deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 20px;
+
+    font-family: 'Poppins', sans-serif;
+
+    color: white;
+}
+
+.titulo p {
+    font-size: 30px;
+    text-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+
+    width: 40%;
+    min-width: 450px;
+    max-height: 600px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+
+    padding: 30px 40px;
+}
+
+#novoitem {
+    background-color: #ffffff;
+    padding: 30px 20px;
+
+    border-radius: 10px;
+    box-shadow: 0 15px 12px rgba(0, 0, 0, 0.3);
+}
+
+#novoitem input {
+    width: 70%;
+    height: 40px;
+
+    font-size: 15px;
+
+    border: 2px solid #d2aeee;
+    border-radius: 5px;
+
+    padding: 10px;
+    
+}
+
+#novoitem button {
+    position: relative;
+    float: right;
+
+    width: 25%;   
+    height: 40px;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+#novoitem button:hover {
+    font-size: 18px;
+}
+
+#tarefas {
+    background-color: #ffffff;
+
+    padding: 30px 20px;
+    margin-top: 20px;
+
+    border-radius: 15px;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.3);
+
+    width: 100%;
+    position: relative;
+}
+
+.tarefa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+
+    font-size: 20px;
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.tarefa button {
+    padding: 10px;
+
+    border: none;
+    border-radius: 10px;
+}
+
+.tarefa button:hover {
+    font-size: 18px;
+}
+
+.completa {
+    text-decoration: line-through;
+}
