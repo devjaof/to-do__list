@@ -9,13 +9,15 @@ body {
     background: rgb(238,174,202);
     background: linear-gradient(145deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .titulo {
     display: flex;
     justify-content: center;
 
-    margin-top: 100px;
+    padding-bottom: 20px;
 
     font-family: 'Poppins', sans-serif;
 
@@ -33,6 +35,7 @@ body {
 
     width: 40%;
     min-width: 450px;
+    max-height: 600px;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -60,7 +63,6 @@ body {
 
     padding: 10px;
     
-    font-family: 'Poppins', sans-serif;
 }
 
 #novoitem button {
@@ -102,7 +104,6 @@ body {
     height: 50px;
 
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
 
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 
